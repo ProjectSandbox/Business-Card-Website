@@ -1,0 +1,132 @@
+body {
+    background-color: #282828;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 140px;
+}
+
+@media only screen and (max-width: 576px) {
+    .image-container {
+        margin-top: 80px;
+    }
+}
+
+.logo-image {
+    width: 280px;
+}
+
+@media only screen and (max-width: 576px) {
+    .logo-image {
+        width: 80vw;
+        max-width: 280px;
+    }
+}
+
+.under-image-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+    .under-image-text {
+        font-size: 32px;
+        margin-top: 30px;
+    }
+}
+
+.divider {
+    background: white;
+    height: 1px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 40%;
+}
+
+.business-details {
+    text-align: center;
+}
+
+.business-desc {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+    .business-desc {
+        font-size: 22px;
+    }
+}
+
+.info-section div {
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.info-item .icon {
+    margin-right: 5px;
+}
+
+.info-item .icon,
+.info-item .text {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.info-section a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    opacity: 70%;
+    font-size: 18px;
+}
+
+.info-section a:hover {
+    opacity: 100%;
+    color: #36b4dc;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+}
+
+.single-icon {
+    opacity: 70%;
+    font-size: 32px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.single-icon:hover {
+    opacity: 100%;
+}
+
+.icon-style-1 {
+    margin-right: 8px;
+    filter: invert(100%) sepia(6%) saturate(7477%) hue-rotate(313deg) brightness(121%) contrast(109%);
+}
+
+.icon-style-2 {
+    filter: invert(100%) sepia(6%) saturate(7477%) hue-rotate(313deg) brightness(121%) contrast(109%);
+}
